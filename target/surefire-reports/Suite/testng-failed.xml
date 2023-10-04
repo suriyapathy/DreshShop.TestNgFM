@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="com.selenium.Extendreport.TestListener"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)" verbose="0">
+    <classes>
+      <class name="com.selenium.testcase.Testcase_Verifylogin_02">
+        <methods>
+          <include name="tearDown"/>
+          <include name="verifyLogin"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.selenium.testcase.Testcase_Verifylogin_02 -->
+      <class name="com.selenium.testcase.Testcase_UserRegister_01">
+        <methods>
+          <include name="verifyRegister"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.selenium.testcase.Testcase_UserRegister_01 -->
+      <class name="com.selenium.testcase.Testcase_Verifywithwrongcreditional_03">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="verify_loginNegative"/>
+        </methods>
+      </class> <!-- com.selenium.testcase.Testcase_Verifywithwrongcreditional_03 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
